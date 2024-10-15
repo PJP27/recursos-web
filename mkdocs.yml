@@ -1,0 +1,109 @@
+site_name: Apuntes 2Bach
+site_url: https://apuntes.example
+
+nav:
+  
+theme:
+  name: material
+  language: es
+  features:
+    - content.code.annotate # Para anotaciones en el código
+ 
+    - content.code.copy # Para que el código se pueda copiar
+    - content.tooltips # Para Tooltips
+    - navigation.tabs # Secciones top level como tabs
+    - navigation.sections # Submenus agrupados
+    - navigation.top # Botón Arriba
+    - navigation.indexes # Para que el título del tema en el menú pueda tener su propio artículo
+    - navigation.footer # Para que salgan los enlaces al siguiente y al anterior tema en el pie
+    - toc.integrate # Para que las subsecciones aparezcan en el mismo menu
+    - header.autohide # Para que la toolbar se oculte sola al hacer scroll
+    - search.suggest # Para autocompletado en las búsquedas
+    - search.highlight # Marcado de términos buscados en la página
+    # - content.tabs.link # Para se seleccionen todas la tabs de la página con el mismo nombre
+    - toc.follow # Para que el índice se mueve solo al desplazarnos por la derecha
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.expand:
+        level: 2
+  
+
+  
+  font:
+    text: Poppins
+    code: Red Hat Mono
+  palette: 
+
+    - scheme: default
+      toggle: 
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: purple
+
+    - scheme: slate
+      toggle: 
+          icon: material/weather-sunny
+          name: Dark mode
+      primary: blue
+      accent: purple      
+
+extra:
+  generator: false
+
+markdown_extensions:
+  - md_in_html
+  - admonition
+  - pymdownx.keys
+  - attr_list
+  - markdown.extensions.attr_list
+  - pymdownx.magiclink
+  - pymdownx.betterem
+  - pymdownx.critic
+  - footnotes
+  - pymdownx.details
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.pathconverter:
+      base_path: '' # default: ''
+      relative_path: 'docs/Matemáticas/Selectividad examenes/selectividad.pdf' # default ''
+      absolute: true # default: false
+      tags: 'a script img link object embed'
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdn.plot.ly/plotly-latest.min.js
+
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      type: date
+      fallback_to_build_date: true
+ 
