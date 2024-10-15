@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://apuntes.example/MathJax/Ejemplo%20Real/</loc>
+         <lastmod>2024-10-15</lastmod>
+    </url>
+    <url>
+         <loc>https://apuntes.example/MathJax/Uso%20MathJax/</loc>
+         <lastmod>2024-10-15</lastmod>
+    </url>
+    <url>
+         <loc>https://apuntes.example/Mermaid/Ejemplo%20Real/</loc>
+         <lastmod>2024-10-15</lastmod>
+    </url>
+    <url>
+         <loc>https://apuntes.example/Mermaid/Uso%20Mermaid/</loc>
+         <lastmod>2024-10-15</lastmod>
+    </url>
+    <url>
+         <loc>https://apuntes.example/TIC/Tema%201.%20Conversi%C3%B3n%20de%20unidades/Cambio%20de%20bases/</loc>
+         <lastmod>2024-10-15</lastmod>
+    </url>
+    <url>
+         <loc>https://apuntes.example/TIC/Tema%201.%20Conversi%C3%B3n%20de%20unidades/Conversion%20de%20Bits/</loc>
+         <lastmod>2024-10-15</lastmod>
+    </url>
+</urlset>
