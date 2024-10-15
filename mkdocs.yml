@@ -2,13 +2,14 @@ site_name: Apuntes 2Bach
 site_url: https://apuntes.example
 
 nav:
-  
+  - Mermaid: 
+    - Uso Mermaid: Mermaid/Uso Mermaid.md
+    - Ejemplo Real: Mermaid/Ejemplo Real.md
 theme:
   name: material
   language: es
   features:
     - content.code.annotate # Para anotaciones en el código
- 
     - content.code.copy # Para que el código se pueda copiar
     - content.tooltips # Para Tooltips
     - navigation.tabs # Secciones top level como tabs
@@ -52,6 +53,11 @@ extra:
   generator: false
 
 markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.snippets
   - md_in_html
   - admonition
   - pymdownx.keys
