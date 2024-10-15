@@ -7,6 +7,8 @@
 }
 </style>
 
+## Aplicación para ejercicios de matemáticas
+
 ??? question "<ul class="task-list"><li class="task-list-item"><label class="task-list-control"><input type="checkbox"><span class="task-list-indicator"></span></label>Analiza y grafica la función racional: <span style='font-size: 1.6em;'>$f(x) = \frac{2x^2 + 3x + 1}{x^2 - 4}$</span></li></ul>"
 
      Asíntotas Verticales
@@ -99,9 +101,9 @@
 
     Esta gráfica muestra el comportamiento de la función cerca de las asíntotas verticales y cómo se aproxima a la asíntota horizontal.
 
-O por ejemplo para hacer una demostración física:
+## Aplicación para Demostraciones Físicas
 
-## Tercera Ley de Kepler
+**Tercera Ley de Kepler**
 
 $T^2 = k * r^3$ 
 

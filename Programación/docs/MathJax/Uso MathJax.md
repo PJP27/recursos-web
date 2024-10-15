@@ -13,6 +13,8 @@ MathJax es una librería JavaScript que muestra notación matemática en navegad
 
 ## 1.1. ¿Cómo escribir?
 
+<center>
+
 | Título                     | Fórmula                                | Código en Markdown                                      |
 |:---------------------------:|:----------------------------------------:|:-----------------------------------------------:|
 | Variables                 | <span style="font-size:140%">$x_1$, $y_1$, $z_{3,4}$</span>                         | `$x_1$, $y_1$, $z_{3,4}$`                    |
@@ -43,7 +45,11 @@ MathJax es una librería JavaScript que muestra notación matemática en navegad
 | Integral grande           | <span style="font-size:140%">$\displaystyle \int_{-\infty }^{\infty}f(x)dx$</span>                | `$\displaystyle \int_{-\infty }^{\infty}f(x)dx$`|
 | Ejemplo de máximo         | <span style="font-size:140%">$\max(a,b)=\begin{cases}a&(a\geqq b)\\b&(a< b)\end{cases}$</span>          | `$\max(a,b)=\begin{cases}a&(a\geqq b)\\b&(a< b)\end{cases}$`|
 
+</center>
+
 ## 1.2 Letras o Simbolos Especiales
+
+<center>
 
 | Name                | Notation | Markdown |
 |:-------------------:|:--------:|:--------:|
@@ -53,3 +59,5 @@ MathJax es una librería JavaScript que muestra notación matemática en navegad
 | Theta mayúscula          | <span style="font-size:140%">$\Theta$</span>        | `$\Theta$` |
 | O minúscula    | <span style="font-size:140%">$o$</span>        | `$o$` |
 | Omega minúscula        | <span style="font-size:140%">$\omega$</span>        | `$\omega$` |
+
+</center>

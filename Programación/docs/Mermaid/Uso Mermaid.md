@@ -6,6 +6,11 @@
             height: 3rem;
             width: auto;
         }
+.center {
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
 </style>
         
 # 1. Diagramas de flujo
@@ -22,6 +27,7 @@ Las direcciones posibles son:
 * LR - izquierda derecha
 * TD - igual que TB
 
+<div class="center">
 <table>
   <thead>
     <tr>
@@ -103,9 +109,9 @@ Las direcciones posibles son:
     </tr>
   </tbody>
 </table>
-
+</div>
 ## 1.2 Nodos y formas
-
+<div class="center">
 <table>
   <thead>
     <tr>
@@ -194,9 +200,9 @@ Las direcciones posibles son:
   <td><code>graph LR; id1{Este es el texto en la caja}</code></td>
 </tr>
 </tbody> </table>
-
+</div>
 ## 1.3 Enlaces entre nodos
-
+<div class="center">
 <table>
   <thead>
     <tr>
@@ -277,3 +283,5 @@ Las direcciones posibles son:
 </tr>
 
 </tbody> </table>
+
+</div>

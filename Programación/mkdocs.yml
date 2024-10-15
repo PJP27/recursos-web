@@ -2,6 +2,7 @@ site_name: Recursos Web
 site_url: https://apuntes.example
 
 nav:
+  - Índice: index.md
   - Mermaid: 
     - Uso Mermaid: Mermaid/Uso Mermaid.md
     - Ejemplo Real: Mermaid/Ejemplo Real.md
