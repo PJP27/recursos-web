@@ -2,22 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://apuntes.example/</loc>
-         <lastmod>2024-10-15</lastmod>
+         <lastmod>2024-10-22</lastmod>
+    </url>
+    <url>
+         <loc>https://apuntes.example/Desmos/Ejemplo%20Real/</loc>
+         <lastmod>2024-10-22</lastmod>
+    </url>
+    <url>
+         <loc>https://apuntes.example/Desmos/Uso%20Desmos/</loc>
+         <lastmod>2024-10-22</lastmod>
     </url>
     <url>
          <loc>https://apuntes.example/MathJax/Ejemplo%20Real/</loc>
-         <lastmod>2024-10-15</lastmod>
+         <lastmod>2024-10-22</lastmod>
     </url>
     <url>
          <loc>https://apuntes.example/MathJax/Uso%20MathJax/</loc>
-         <lastmod>2024-10-15</lastmod>
+         <lastmod>2024-10-22</lastmod>
     </url>
     <url>
          <loc>https://apuntes.example/Mermaid/Ejemplo%20Real/</loc>
-         <lastmod>2024-10-15</lastmod>
+         <lastmod>2024-10-22</lastmod>
     </url>
     <url>
          <loc>https://apuntes.example/Mermaid/Uso%20Mermaid/</loc>
-         <lastmod>2024-10-15</lastmod>
+         <lastmod>2024-10-22</lastmod>
     </url>
 </urlset>

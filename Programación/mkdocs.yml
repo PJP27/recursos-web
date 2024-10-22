@@ -5,10 +5,14 @@ nav:
   - Índice: index.md
   - Mermaid: 
     - Uso Mermaid: Mermaid/Uso Mermaid.md
-    - Ejemplo Real: Mermaid/Ejemplo Real.md
+    - Ejemplo Real Mermaid: Mermaid/Ejemplo Real.md
   - MathJax: 
     - Uso MathJax: MathJax/Uso MathJax.md
-    - Ejemplo Real: MathJax/Ejemplo Real.md
+    - Ejemplo Real MathJax: MathJax/Ejemplo Real.md
+  - Demos:
+    - Uso Desmos: Desmos/Uso Desmos.md
+    - Ejemplo Real Desmos: Desmos/Ejemplo Real.md
+
 theme:
   name: material
   logo: image/icono_negro.png
