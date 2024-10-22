@@ -9,9 +9,9 @@ nav:
   - MathJax: 
     - Uso MathJax: MathJax/Uso MathJax.md
     - Ejemplo Real MathJax: MathJax/Ejemplo Real.md
-  - Demos:
+  - Desmos: 
     - Uso Desmos: Desmos/Uso Desmos.md
-    - Ejemplo Real Desmos: Desmos/Ejemplo Real.md
+    - Ejemplo Real Demos: Desmos/Ejemplo Real.md
 
 theme:
   name: material
