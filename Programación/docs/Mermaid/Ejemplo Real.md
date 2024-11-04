@@ -11,6 +11,16 @@
             width: auto;
         }
         
+        :root {
+    --md-mermaid-label-fg-color: black !important;
+  }
+  
+  /* Asegurarse de que el color negro se aplique en todos los esquemas de color */
+  [data-md-color-scheme="default"],
+  [data-md-color-scheme="slate"] {
+    --md-mermaid-label-fg-color: black !important;
+  }
+  
         body {
             margin: 0;
             padding: 0;

@@ -8,6 +8,7 @@
         }
 </style>
         
+
 # 1. Diagramas de flujo
 
 Un diagrama de flujo es un tipo de diagrama que representa un algoritmo, flujo de trabajo o proceso. El diagrama de flujo muestra los pasos como casillas de diversos tipos, y su orden conectando las casillas con flechas. Esta representación diagramática ilustra un modelo de solución a un problema dado.

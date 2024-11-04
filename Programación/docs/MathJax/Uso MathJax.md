@@ -33,7 +33,7 @@ Introduciendo en el body de tu página la siguiente etiqueta: ```<script src="ht
 
 ## 1.2. ¿Cómo escribir?
 
-Se escribe el caracter $ para abrir y cerrar la simbología matemática.
+Se escribe el carácter $ para abrir y cerrar la simbología matemática.
 
 <center>
 

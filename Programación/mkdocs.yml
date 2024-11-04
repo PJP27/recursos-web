@@ -3,12 +3,15 @@ site_url: https://apuntes.example
 
 nav:
   - Índice: index.md
-  - Mermaid: 
-    - Uso Mermaid: Mermaid/Uso Mermaid.md
-    - Ejemplo Real Mermaid: Mermaid/Ejemplo Real.md
   - MathJax: 
     - Uso MathJax: MathJax/Uso MathJax.md
     - Ejemplo Real MathJax: MathJax/Ejemplo Real.md
+  - Visme: 
+    - Uso Visme: Visme/Uso Visme.md
+    - Ejemplo Real Visme: Visme/Ejemplo Real.md
+  - Mermaid: 
+    - Uso Mermaid: Mermaid/Uso Mermaid.md
+    - Ejemplo Real Mermaid: Mermaid/Ejemplo Real.md
   - Desmos: 
     - Uso Desmos: Desmos/Uso Desmos.md
     - Ejemplo Real Demos: Desmos/Ejemplo Real.md
