@@ -833,7 +833,7 @@
 <h1 id="1-mathjax">1. MathJax<a class="headerlink" href="#1-mathjax" title="Permanent link">&para;</a></h1>
 <p>MathJax es una librería JavaScript que muestra notación matemática en navegadores web.</p>
 <h2 id="11-como-importarla">1.1. ¿Cómo importarla?<a class="headerlink" href="#11-como-importarla" title="Permanent link">&para;</a></h2>
-<p>Introduciendo en el body de tu página la siguiente etiqueta: <code>&lt;script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"&gt;&lt;/script&gt;</code></p>
+<p>Introduciendo en el body de tu página la siguiente etiqueta: <code>&lt;script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"&gt;&lt;/script&gt;</code></p>
 <div class="language-HTML highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">HTML</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1"> 1</a></span>
 <span class="normal"><a href="#__codelineno-0-2"> 2</a></span>
 <span class="normal"><a href="#__codelineno-0-3"> 3</a></span>
@@ -852,14 +852,14 @@
 </span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5"></a>    <span class="cm">&lt;!-- Otros elementos del head --&gt;</span>
 </span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6"></a><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
 </span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7"></a><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
-</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8"></a>    <span class="cm">&lt;!-- Contenido de tu página --&gt;</span>
-</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9"></a><span class="hll">    <span class="cm">&lt;!-- Importación de MathJax --&gt;</span>
-</span></span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10"></a><span class="hll">    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8"></a>    <span class="cm">&lt;!-- &lt;p&gt; $$x^2$$ &lt;/p&gt; --&gt;</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9"></a><span class="hll">    <span class="cm">&lt;!-- &gt;Importación de MathJax --&gt;</span>
+</span></span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10"></a><span class="hll">    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">id</span><span class="o">=</span><span class="s">&quot;MathJax-script&quot;</span> <span class="na">async</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
 </span></span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11"></a><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
 </span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12"></a><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
 </span></code></pre></div></td></tr></table></div>
 <h2 id="12-como-escribir">1.2. ¿Cómo escribir?<a class="headerlink" href="#12-como-escribir" title="Permanent link">&para;</a></h2>
-<p>Se escribe el caracter $ para abrir y cerrar la simbología matemática.</p>
+<p>Se escribe el carácter $ para abrir y cerrar la simbología matemática. También se usa $$ para abrir y cerrar, ya que en algunos navegadores unicamente el $ no es detectado.</p>
 <p><center></p>
 <table>
 <thead>

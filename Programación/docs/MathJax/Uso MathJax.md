@@ -12,7 +12,7 @@
 MathJax es una librería JavaScript que muestra notación matemática en navegadores web.
 
 ## 1.1. ¿Cómo importarla?
-Introduciendo en el body de tu página la siguiente etiqueta: ```<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>```
+Introduciendo en el body de tu página la siguiente etiqueta: ```<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>```
 
 
 
@@ -24,16 +24,16 @@ Introduciendo en el body de tu página la siguiente etiqueta: ```<script src="ht
     <!-- Otros elementos del head -->
 </head>
 <body>
-    <!-- Contenido de tu página -->
-    <!-- Importación de MathJax -->
-    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <!-- <p> $$x^2$$ </p> -->
+    <!-- >Importación de MathJax -->
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </body>
 </html>
 ```
 
 ## 1.2. ¿Cómo escribir?
 
-Se escribe el carácter $ para abrir y cerrar la simbología matemática.
+Se escribe el carácter $ para abrir y cerrar la simbología matemática. También se usa $$ para abrir y cerrar, ya que en algunos navegadores unicamente el $ no es detectado.
 
 <center>
 
