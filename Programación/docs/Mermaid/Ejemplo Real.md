@@ -75,7 +75,7 @@
 
 <h1>Ejemplo Real </h1>
 
-```mermaid 
+```mermaid
 
 graph TD
 
@@ -137,7 +137,7 @@ graph TD
 
 Siendo su código el siguiente:
 
-```mermaid title="mermaid"
+```mermaid title="Mermaid" linenums="1"
 
 graph TD
 

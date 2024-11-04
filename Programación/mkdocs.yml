@@ -16,7 +16,7 @@ nav:
 theme:
   name: material
   logo: image/icono_negro.png
-  favicon: image/icono_negro.png
+  favicon: image/icono_negro.svg
   language: es
   features:
     - content.code.annotate # Para anotaciones en el código
@@ -61,6 +61,10 @@ theme:
 
 extra:
   generator: false
+
+extra_css:
+  - stylesheets/extra.css
+
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -111,8 +115,6 @@ markdown_extensions:
   - pymdownx.tilde
 
 extra_javascript:
-  - javascripts/mathjax.js
-  - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
   - https://cdn.plot.ly/plotly-latest.min.js
 

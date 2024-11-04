@@ -11,7 +11,29 @@
 
 MathJax es una librería JavaScript que muestra notación matemática en navegadores web.
 
-## 1.1. ¿Cómo escribir?
+## 1.1. ¿Cómo importarla?
+Introduciendo en el body de tu página la siguiente etiqueta: ```<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>```
+
+
+
+``` HTML hl_lines="9 10" title="HTML" linenums="1"
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tu página con MathJax</title>
+    <!-- Otros elementos del head -->
+</head>
+<body>
+    <!-- Contenido de tu página -->
+    <!-- Importación de MathJax -->
+    <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</body>
+</html>
+```
+
+## 1.2. ¿Cómo escribir?
+
+Se escribe el caracter $ para abrir y cerrar la simbología matemática.
 
 <center>
 
@@ -47,7 +69,7 @@ MathJax es una librería JavaScript que muestra notación matemática en navegad
 
 </center>
 
-## 1.2 Letras o Simbolos Especiales
+## 1.3. Letras o Simbolos Especiales
 
 <center>
 

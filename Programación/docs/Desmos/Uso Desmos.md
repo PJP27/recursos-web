@@ -15,15 +15,7 @@ Desmos es una potente calculadora gráfica online que te permite visualizar y ma
 
 Para empezar, simplemente ve a [www.desmos.com/calculator](https://www.desmos.com/calculator).
 
-### 2. Interfaz Básica
-
-![Interfaz de Desmos](https://i.imgur.com/XYZ123.png)
-
-1. Panel de entrada de funciones
-2. Área de gráfico
-3. Barra de herramientas
-
-### 3. Graficando Funciones Básicas
+### 2. Graficando Funciones Básicas
 
 Para graficar una función, simplemente escríbela en el panel de entrada:
 
@@ -41,7 +33,7 @@ Para graficar una función, simplemente escríbela en el panel de entrada:
 
 
 
-### 4. Personalizando Gráficos
+### 3. Personalizando Gráficos
 
 #### Cambiar Color:
 Haz clic en el círculo de color junto a la función para cambiar su apariencia.
@@ -56,7 +48,7 @@ Ejemplo:
 
 <iframe src="https://www.desmos.com/calculator/vhhywdka3x" width="100%" height="400px" style="border: 1px solid #ccc" frameborder=0></iframe>
 
-### 5. Herramientas Avanzadas
+### 4. Herramientas Avanzadas
 
 #### Deslizadores:
 1. Escribe una variable, por ejemplo: $a = 1$
