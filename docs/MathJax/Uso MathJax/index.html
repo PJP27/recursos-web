@@ -17,7 +17,7 @@
         <link rel="next" href="../Ejemplo%20Real/">
       
       
-      <link rel="icon" href="../../image/icono_negro.png">
+      <link rel="icon" href="../../image/icono_negro.svg">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.39">
     
     
@@ -47,6 +47,8 @@
         <style>:root{--md-text-font:"Poppins";--md-code-font:"Red Hat Mono"}</style>
       
     
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
     
     <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
@@ -531,18 +533,27 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#11-como-escribir" class="md-nav__link">
+  <a href="#11-como-importarla" class="md-nav__link">
     <span class="md-ellipsis">
-      1.1. ¿Cómo escribir?
+      1.1. ¿Cómo importarla?
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#12-letras-o-simbolos-especiales" class="md-nav__link">
+  <a href="#12-como-escribir" class="md-nav__link">
     <span class="md-ellipsis">
-      1.2 Letras o Simbolos Especiales
+      1.2. ¿Cómo escribir?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#13-letras-o-simbolos-especiales" class="md-nav__link">
+    <span class="md-ellipsis">
+      1.3. Letras o Simbolos Especiales
     </span>
   </a>
   
@@ -706,7 +717,34 @@
 
 <h1 id="1-mathjax">1. MathJax<a class="headerlink" href="#1-mathjax" title="Permanent link">&para;</a></h1>
 <p>MathJax es una librería JavaScript que muestra notación matemática en navegadores web.</p>
-<h2 id="11-como-escribir">1.1. ¿Cómo escribir?<a class="headerlink" href="#11-como-escribir" title="Permanent link">&para;</a></h2>
+<h2 id="11-como-importarla">1.1. ¿Cómo importarla?<a class="headerlink" href="#11-como-importarla" title="Permanent link">&para;</a></h2>
+<p>Introduciendo en el body de tu página la siguiente etiqueta: <code>&lt;script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"&gt;&lt;/script&gt;</code></p>
+<div class="language-HTML highlight"><table class="highlighttable"><tr><th colspan="2" class="filename"><span class="filename">HTML</span></th></tr><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-0-1"> 1</a></span>
+<span class="normal"><a href="#__codelineno-0-2"> 2</a></span>
+<span class="normal"><a href="#__codelineno-0-3"> 3</a></span>
+<span class="normal"><a href="#__codelineno-0-4"> 4</a></span>
+<span class="normal"><a href="#__codelineno-0-5"> 5</a></span>
+<span class="normal"><a href="#__codelineno-0-6"> 6</a></span>
+<span class="normal"><a href="#__codelineno-0-7"> 7</a></span>
+<span class="normal"><a href="#__codelineno-0-8"> 8</a></span>
+<span class="normal"><a href="#__codelineno-0-9"> 9</a></span>
+<span class="normal"><a href="#__codelineno-0-10">10</a></span>
+<span class="normal"><a href="#__codelineno-0-11">11</a></span>
+<span class="normal"><a href="#__codelineno-0-12">12</a></span></pre></div></td><td class="code"><div><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="cp">&lt;!DOCTYPE html&gt;</span>
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2"></a><span class="p">&lt;</span><span class="nt">html</span><span class="p">&gt;</span>
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3"></a><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4"></a>    <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Tu página con MathJax<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
+</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5"></a>    <span class="cm">&lt;!-- Otros elementos del head --&gt;</span>
+</span><span id="__span-0-6"><a id="__codelineno-0-6" name="__codelineno-0-6"></a><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
+</span><span id="__span-0-7"><a id="__codelineno-0-7" name="__codelineno-0-7"></a><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
+</span><span id="__span-0-8"><a id="__codelineno-0-8" name="__codelineno-0-8"></a>    <span class="cm">&lt;!-- Contenido de tu página --&gt;</span>
+</span><span id="__span-0-9"><a id="__codelineno-0-9" name="__codelineno-0-9"></a><span class="hll">    <span class="cm">&lt;!-- Importación de MathJax --&gt;</span>
+</span></span><span id="__span-0-10"><a id="__codelineno-0-10" name="__codelineno-0-10"></a><span class="hll">    <span class="p">&lt;</span><span class="nt">script</span> <span class="na">src</span><span class="o">=</span><span class="s">&quot;https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js&quot;</span><span class="p">&gt;&lt;/</span><span class="nt">script</span><span class="p">&gt;</span>
+</span></span><span id="__span-0-11"><a id="__codelineno-0-11" name="__codelineno-0-11"></a><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
+</span><span id="__span-0-12"><a id="__codelineno-0-12" name="__codelineno-0-12"></a><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
+</span></code></pre></div></td></tr></table></div>
+<h2 id="12-como-escribir">1.2. ¿Cómo escribir?<a class="headerlink" href="#12-como-escribir" title="Permanent link">&para;</a></h2>
+<p>Se escribe el caracter $ para abrir y cerrar la simbología matemática.</p>
 <p><center></p>
 <table>
 <thead>
@@ -855,7 +893,7 @@
 </tbody>
 </table>
 <p></center></p>
-<h2 id="12-letras-o-simbolos-especiales">1.2 Letras o Simbolos Especiales<a class="headerlink" href="#12-letras-o-simbolos-especiales" title="Permanent link">&para;</a></h2>
+<h2 id="13-letras-o-simbolos-especiales">1.3. Letras o Simbolos Especiales<a class="headerlink" href="#13-letras-o-simbolos-especiales" title="Permanent link">&para;</a></h2>
 <p><center></p>
 <table>
 <thead>
@@ -919,7 +957,7 @@
     <span class="md-icon" title="Última actualización">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">15 de octubre de 2024</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">4 de noviembre de 2024</span>
   </span>
 
     
@@ -1013,10 +1051,6 @@
     
     
       <script src="../../assets/javascripts/bundle.525ec568.min.js"></script>
-      
-        <script src="../../javascripts/mathjax.js"></script>
-      
-        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
       
         <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       
